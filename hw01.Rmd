@@ -1,9 +1,9 @@
 ---
 title: "Stats 306, Winter 2024, Homework 1"
-author: "Your Name, Your Uniqname"
+author: "Will Peng, weipeng"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -138,7 +138,7 @@ cat("The species column contains", class(starwars$species), "vectors (strings)."
 ```
 * Explain what the value `NA` means in the `hair_color` column.
 ```{r, echo = FALSE}
-cat("NA, which stands for \"not available\", means that the data in a column is not available or undefined. In this case, if the Star Wars character is not capable of having hair, such as a C-3PO or R2-D2, then their hair color will be NA.")
+cat("NA, which stands for \"not available\", means that the data in a column is not available or undefined. In this case, if the Star Wars character is not capable of having hair, such as C-3PO or R2-D2, then their hair color will be NA.")
 ```
 * How many characters are from Tatooine?
 ```{r, echo = FALSE}
